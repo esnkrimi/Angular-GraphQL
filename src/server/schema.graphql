@@ -1,0 +1,20 @@
+type Query {
+  characters(offset: Int = 0, limit: Int = 10): CharactersResult
+  character(name: String!): Character
+}
+
+type CharactersResult {
+  characters: [Character]
+}
+
+type Character {
+  name: String
+  homeworld: String
+  species: String
+  gender: String
+  height: Int
+  mass: String
+  hair_color: String
+  skin_color: String
+}
+
