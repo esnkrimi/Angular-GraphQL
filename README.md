@@ -9,8 +9,8 @@ a simple project that fetch data from a server
 
 <b>next</b> browse to server folder and run node app.js
 
-it will run data server . run http://localhost:4201/(defaultport is 4201) .you should see server page
+it will run data server . run http://localhost:4201/ (defaultport is 4201) .you should see server page
 
-<b>finally </b> browse project directory and run npm start(http://localhost:4200)(defaultport is 4200)
+<b>finally </b> browse project directory and run npm start(http://localhost:4200) (defaultport is 4200)
 
 Good Luck
